@@ -1,2 +1,2 @@
 # Appworks
-Assignments for the Appworks campus 
+Assignments for the Appworks School Campus
