@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="Advanced_Hw0.css" type="text/css" />
+  <title>Tony</title>
+</head>
+
+<body>
+  <section class="card">
+    <header>
+      <div class="bigcircle"></div>
+      <div class="info">
+        <h1 class="friends" font-size="16" font-stlye="bold">你的朋友</h1>
+        <p class="update-time">一小時前</p>
+      </div>
+    </header>
+
+    <div class="text">
+      <p>Next.js介紹！！！</p>
+      <br>
+      <p>Next.js 是一種基於 React 的 JavaScript 框架，它讓開發者能夠更容易地建立用於伺服器渲染的 React 應用程式，因此廣受部分developer的青睞。</p>
+      <br>
+      <p>相較於React.js下有以下優點:</p>
+      <ol>
+        <li>更簡單的處理路由：<br>在 React 應用中，通常需要使用第三方庫（如 react-router）來處理路由。而在 Next.js 中，路由是內建的。</li>
+        <li>提供API路由:<br>使你能在同一應用中編寫服務器端代碼。這樣你可以避免建立一個單獨的服務器來處理 API 請求。這在 React.js 中並不可行</li>
+        <li>部分功能優化：<br>像是自動代碼拆分，使每個頁面只加載必要的 JavaScript 代碼。</li>
+        <li>服務端渲染：<br>Next.js 支援 SSR，SSR指的是在伺服器端渲染出完整的 HTML 頁面，然後再發送到客戶端的技術。這種方式對於 SEO（搜索引擎優化）非常有利，因為搜尋引擎可以爬取到完整的 HTML 內容。此外，SSR 還可以提高首次內容繪製（First Contentful Paint，FCP）的速度，從而提高用戶體驗。</li>
+        <li>供了一個簡單的方式來建立單頁（SPA）、多頁（MPA）和靜態網站:<br>SPA 是 "Single Page Application" 的縮寫，這是一種 Web 應用或網站的設計模式，它通過動態地重寫當前頁面，而非從伺服器加載新頁面，來提供更為流暢的用戶體驗。
+          在傳統的多頁應用（MPA）中，當用戶與應用進行互動或導航時，瀏覽器會載入新的 HTML 頁面，這可能導致短暫的屏幕閃爍和瀏覽器的一些延遲。相比之下，單頁應用則通過 JavaScript 動態地更新頁面的一部分，這使得應用看起來更加流暢和即時。
+          單頁應用的典型例子包括 Gmail、Facebook 和 Google Maps。這些應用在你與它們互動時，例如打開郵件、滾動訊息或縮放地圖時，都不會重新加載整個頁面。
+          這種模式有許多優點，例如改進用戶體驗、減少伺服器負載、更快的頁面導航等，但也有一些缺點，例如較為複雜的前端代碼、潛在的 SEO 問題（因為搜尋引擎可能無法完全索引 JavaScript 生成的內容）以及初次加載的性能問題（因為需要下載整個應用的 JavaScript 代碼）。</li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <hr class="shortline" />
+      <div class="double-circle">
+        <div class="small-red-circle"></div>
+        <div class="small-gray-circle"></div>
+      </div>
+      <hr class="shortline" />
+      <div class="char">
+        <p class="post">7人喜歡這則貼文</p>
+        <p class="comment">1則留言</p>
+      </div>
+      <hr class="line3" />
+    </div>
+
+
+    <div class="user-commemt">
+      <img src="../user.png" class="img" />
+      <div class="bar">
+        <p class="give-comment">留個言吧</p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
